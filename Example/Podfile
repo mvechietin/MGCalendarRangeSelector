@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MGCalendarRangeSelector_Example' do
+  pod 'MGCalendarRangeSelector', :path => '../'
+
+  target 'MGCalendarRangeSelector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
